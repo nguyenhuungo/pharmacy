@@ -1,0 +1,75 @@
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    filter: invert(80%);
+}
+
+.col-lg-6 h4 {
+    color: rgb(38, 38, 190);
+}
+
+.note>div {
+    margin-top: 10px;
+
+}
+
+.note div .lab {
+    font-weight: 600;
+    color: rgb(56, 54, 54);
+}
+.card .card-body img{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: auto;
+}
+
+/* số lượng */
+
+.value-button {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(218, 210, 196);
+    width: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(224, 221, 216);
+    font-weight: 700;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form #decrease {
+    margin-right: -4px;
+    border-radius: 15px 0 0 15px;
+}
+
+form #increase {
+    margin-left: -4px;
+    border-radius: 0 15px 15px 0;
+}
+
+form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 50px;
+    height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

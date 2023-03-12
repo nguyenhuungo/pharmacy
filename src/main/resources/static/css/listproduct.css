@@ -1,0 +1,104 @@
+#main1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+}
+#main2 {
+    background: rgb(241,235,214);
+    background: linear-gradient(180deg, rgba(241,235,214,1) 0%, rgba(235,234,222,1) 100%, rgba(0,212,255,1) 100%);
+}
+.nav-top nav div div ul li a {
+    font-size: 18px;
+}
+
+.container {
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 1950px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container nav .container-fluid {
+    max-width: 1200px;
+    margin: auto;
+
+}
+.container .nav-bot nav{
+    max-width: 1200px;
+    margin: auto;
+}
+.container nav .container-fluid .collapse div {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    width: 450px;
+}
+
+#main2 #search {
+    max-width: 70%;
+    height: 300px;
+    margin: auto;
+    margin-top: -100px;
+    z-index: 3;
+}
+#main2 #search form div{
+    padding-top: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+#main2 #search form input {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 900px;
+    height: 60px;
+    border: solid 1px rgb(165, 158, 158);
+}
+#main2 #search form button {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(23, 11, 201);
+    width: 100px;
+    height: 60px;
+}
+#main2 #search h4{
+    margin-top: 20px;
+    color: rgb(53, 54, 54);
+    font-weight: 400;
+}
+#main2 #search span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* card thuốc */
+
+#main2 .card-medicine {
+    max-width: 70%;
+    margin: auto;
+}
+#main2 .card-medicine .cards{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+#main2 .card-medicine .cards div{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+/* #main2 .card-medicine .cards div img{
+    border-radius: 20px;
+} */
+
+#main2 .card-medicine .cards div p{
+    padding-left: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}

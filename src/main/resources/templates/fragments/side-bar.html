@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Dashboard Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/side-bar.css}">
+</head>
+<body>
+
+<div class="sidebar pe-4" th:fragment="side-bar">
+    <nav class="navbar bg-light navbar-light">
+        <div class="d-flex align-items-center ms-4 mb-4">
+            <div class="position-relative">
+                <img class="rounded-circle" src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png?w=740&t=st=1672910756~exp=1672911356~hmac=a6b004a7ca8d833d5e24bb926cc892f060829ff8469f9aec35367dd89e4ad734" alt="" style="width: 40px; height: 40px;">
+                <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+            </div>
+            <div class="ms-3">
+                <h6 class="mb-0">ADMIN</h6>
+                <span>Admin</span>
+            </div>
+        </div>
+        <div class="navbar-nav nav-links w-100">
+            <a th:href="@{/AM002/dashboard}" class="nav-item nav-link side-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+            <a th:href="@{/AM002/users}" class="nav-item nav-link side-link"><i class="fa fa-table me-2"></i>List Accounts</a>
+            <a th:href="@{/AM003/products}" class="nav-item nav-link side-link"><i class="fa fa-table me-2"></i>List Products</a>
+            <a href="form.html" class="nav-item nav-link side-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
+            <a class="nav-item nav-link side-link" th:href="@{/AM001?logout}">Logout</a>
+        </div>
+    </nav>
+</div>
+</body>
+</html>
